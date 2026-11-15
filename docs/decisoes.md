@@ -100,3 +100,16 @@ Formato: decisão, alternativa rejeitada e motivo.
 - **Links:** 14 de 15 externos respondem 200. O LinkedIn devolve 999 (bloqueio a robôs), então não dá para confirmar por script; abrir à mão antes do deploy.
 - **Texto:** todos os números da página conferidos contra `curriculo.md` e o README do Projeto 1. Só 144 h e 72 h vêm direto dos certificados.
 - **Prévia de compartilhamento:** `assets/og-preview.png` (1200×630) e favicon `assets/favicon.svg`. A URL absoluta do `og:image` entra na Etapa 5, quando o domínio existir.
+
+## Etapa 6 — Projeto 2
+
+### Cartão do Projeto 2 atualizado com o resultado do teste
+- Selo "Em andamento" removido. Resultado, figura e link do repositório adicionados.
+- **Resultado exibido:** WAPE de 8,3% e viés de −0,5% do LightGBM contra 11,1% e +0,2% da régua simples (venda da semana anterior), no teste de 26 semanas. Todos os números conferidos com o README do projeto.
+- **Limite mostrado de propósito:** nas 50% menores séries (2,5% do volume), o modelo não superou a régua (WAPE de 20,9% contra 18,2%). **Alternativa rejeitada:** omitir esse ponto. **Motivo:** o README já o registra, e mostrá-lo dá credibilidade com a entrevistadora técnica.
+- **Figura:** `wape_semanal_teste.png`, que compara o modelo com a régua semana a semana. **Alternativa rejeitada:** o gráfico de custo por proporção, porque as proporções de custo são premissas, não dados.
+- O custo em unidades com margem de segurança não entrou no cartão: depende das proporções de custo, que são premissas.
+
+### Competências: área "Séries temporais" incluída
+- Etiquetas: validação com cortes no tempo, WAPE e viés. Vêm do método e do resultado do Projeto 2.
+- **Alternativa rejeitada:** incluir também "margem de segurança por proporção de custo". **Motivo:** o Éric pediu para não destacar o custo com margem de segurança.

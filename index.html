@@ -153,7 +153,7 @@
 
       <!-- PROJETO-2 -->
       <article class="projeto" aria-labelledby="projeto-2">
-        <h3 id="projeto-2">Previsão semanal de vendas no varejo <span class="selo">Em andamento</span></h3>
+        <h3 id="projeto-2">Previsão semanal de vendas no varejo</h3>
         <dl class="projeto__ficha">
           <div>
             <dt>Pergunta</dt>
@@ -167,7 +167,18 @@
             <dt>Método</dt>
             <dd>Vendas somadas por semana; LightGBM único para todas as séries, com histórico, calendário, promoções e feriados; validação com vários cortes no tempo; WAPE, viés e margem de segurança por proporção de custo.</dd>
           </div>
+          <div class="projeto__resultado">
+            <dt>Resultado</dt>
+            <dd>No teste, em 26 semanas usadas uma única vez, o LightGBM teve WAPE de <strong>8,3%</strong> e viés de −0,5%, contra 11,1% e +0,2% da régua simples (venda da semana anterior). O WAPE foi menor em 18 das 26 semanas. Nas 50% menores séries, que somam 2,5% do volume, o modelo não superou a régua: WAPE de 20,9% contra 18,2%.</dd>
+          </div>
         </dl>
+        <figure class="projeto__figura">
+          <a href="assets/wape_semanal_teste.png" target="_blank" rel="noopener">
+            <img src="assets/wape_semanal_teste.png" alt="Gráfico de linhas do WAPE semanal, em porcentagem, nas 26 semanas do teste, de fevereiro a agosto de 2017, para o LightGBM, a semana anterior e o ano anterior. A linha do LightGBM fica entre cerca de 6% e 11% e abaixo da semana anterior em 18 das 26 semanas. A linha do ano anterior tem um pico de cerca de 37% na semana de 17/04/2017." width="1300" height="520" loading="lazy">
+          </a>
+          <figcaption>WAPE semana a semana nas 26 semanas do teste: LightGBM, semana anterior (regra atual) e ano anterior. Figura do teste. Toque no gráfico para ampliar.</figcaption>
+        </figure>
+        <p><a class="link-seta" href="https://github.com/EricMarqs/previsao-vendas-varejo">Ver repositório no GitHub</a></p>
       </article>
       <!-- /PROJETO-2 -->
     </section>
@@ -236,7 +247,6 @@
     <!-- 5. COMPETÊNCIAS -->
     <section id="competencias" class="secao" aria-labelledby="titulo-competencias">
       <h2 id="titulo-competencias">Competências técnicas</h2>
-      <!-- Área "Séries temporais" omitida: lacuna até o Projeto 2 terminar -->
       <div class="competencias">
         <div class="area">
           <h3>Linguagens</h3>
@@ -249,6 +259,10 @@
         <div class="area">
           <h3>Machine learning</h3>
           <ul class="etiquetas"><li>scikit-learn</li><li>LightGBM</li><li>validação temporal</li><li>calibração de probabilidades</li></ul>
+        </div>
+        <div class="area">
+          <h3>Séries temporais</h3>
+          <ul class="etiquetas"><li>validação com cortes no tempo</li><li>WAPE</li><li>viés</li></ul>
         </div>
         <div class="area">
           <h3>Versionamento</h3>
