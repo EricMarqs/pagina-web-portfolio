@@ -1,0 +1,8 @@
+CLAUDE.local.md
+_scratch/
+.env
+.env.*
+.DS_Store
+.vercel/
+node_modules/
+conteudo/
