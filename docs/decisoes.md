@@ -113,3 +113,9 @@ Formato: decisão, alternativa rejeitada e motivo.
 ### Competências: área "Séries temporais" incluída
 - Etiquetas: validação com cortes no tempo, WAPE e viés. Vêm do método e do resultado do Projeto 2.
 - **Alternativa rejeitada:** incluir também "margem de segurança por proporção de custo". **Motivo:** o Éric pediu para não destacar o custo com margem de segurança.
+
+## Etapa 7 — PDF
+
+### Botão "Baixar currículo (PDF)" visível, apontando para `assets/curriculo-eric-marques.pdf`
+- PDF de 2 páginas, sem lacunas entre colchetes. Publicado junto com a página, como previsto no CLAUDE.local.md.
+- **Atenção:** o PDF contém o telefone e fica em endereço público (repositório e site). A página em si continua sem telefone.
